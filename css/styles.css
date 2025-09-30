@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}   
+
+
+body {
+    background-color: #0A192F;
+    color:#DBF5F0;
+    padding: 20px;
+}
+
+h1, h2, h3, a {
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 2rem;
+    
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+p {
+    font-family: "Hind Madurai", sans-serif;
+    font-size: 1rem;
+}
+
+.header {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 40px;
+    
+}
+
+.text-center {
+    text-align: center;
+}
+
+.component{
+    padding: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.cta-imgs {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    
+}
+
+a {
+    text-decoration: none;
+    color:#0A192F;
+}
+
+a:visited {
+    color:#0A192F;
+    text-decoration: none;
+}
+
+.pri-button{
+    background-color: #FF7477;
+    color:#0A192F;
+    padding:6px 10px;
+    border:none;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 1rem;
+ 
+}
+
+.pri-button:hover{
+    background-color: #64FFDA; 
+} 
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin-top: 200px;
+}
