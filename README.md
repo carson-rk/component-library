@@ -1,2 +1,10 @@
-# component-library
-A collection of reusable components. Built for rapid prototyping and consistent UI development.
+# Component Library
+
+Reusable component library for buttons, cards, gradients, and other UI elements.
+
+## Components
+- CTA
+- Buttons
+- Cards
+- Gradients
+- More coming soon...
